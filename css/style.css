@@ -156,4 +156,9 @@ table .C1
 {
     font-weight: 400;
 }
+
+table tr#last th
+{
+    border-bottom: none;
+}
   
