@@ -140,7 +140,7 @@ table
     border-collapse: collapse; /* Evita el espacio entre las celdas en la tabla */
 }
 
-table th 
+table th, td
 {
     border-bottom: 1px solid hsl(0, 0%, 80%); /* Borde para las celdas */
     padding: 12px; /* Ajusta el espaciado dentro de las celdas */
@@ -152,12 +152,7 @@ table .C2
     color: hsl(14, 45%, 36%);
 }
 
-table .C1
-{
-    font-weight: 400;
-}
-
-table tr#last th
+table tr#last th, table tr#last td
 {
     border-bottom: none;
 }
