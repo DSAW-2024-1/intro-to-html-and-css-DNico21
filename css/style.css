@@ -1,0 +1,160 @@
+/* Estilos para dispositivos móviles (ancho <= 375px) */
+    body 
+    {
+        background-color: hsl(30, 54%, 90%);
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto; /* Centra el contenido en dispositivos móviles */
+    }
+
+    /* Estilos para dispositivos de escritorio (ancho > 375px) */
+    @media (min-width: 376px) 
+    {
+      body 
+      {
+        max-width: 1440px;
+      }
+    }
+    .attribution { font-size: 16px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+#principal
+{
+    background-color: hsl(0, 0%, 100%);
+    width: 750px; /* Ancho fijo en píxeles o el valor que prefieras */
+    margin: 100px auto; /* Centra el contenedor horizontalmente */
+    padding: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    /*margin: 275px 275px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px;
+    border-radius: 20px;*/
+}
+#omelette
+{
+    border-radius: 10px;
+}
+
+#Preparation
+{
+    background-color: hsl(330, 100%, 98%)   ;
+    padding: 5px;
+    border-radius: 20px;
+}
+h3
+{
+    margin-left: 23px;
+    color: hsl(332, 51%, 32%);
+}
+
+
+.prepa li::marker
+{
+    content: '\2022';
+    color: hsl(332, 51%, 32%);
+    
+}
+
+.Ingre li::marker
+{
+    content: '\2022';
+    color: hsl(14, 45%, 36%);
+}
+
+.Ingre
+{
+    padding-left: 10px;
+}
+
+li::marker
+{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;     
+}
+.prepa
+{
+    padding-left: 30px;
+}
+
+ul
+{
+    padding-left: 20px;
+}
+
+ol
+{
+    padding-left: 15px;
+}
+
+.prepa li 
+{
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 13px;
+    padding-left: 25px;
+}
+.Ingre li 
+{
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 13px;
+    padding-left: 25px;
+}
+
+li
+{    
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 13px;
+    padding-left: 20px;
+}
+
+
+h2
+{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+}
+
+h1
+{
+    font-family: 'Young Serif', serif;
+    
+}
+
+body 
+{
+    /*font-family: 'Young Serif', serif;*/
+    font-family: 'Outfit', sans-serif;
+}
+
+
+#Ingredients
+{
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+    padding-bottom: 20px;
+}
+
+#Instructions
+{
+    padding-right: 11px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(0, 0%, 80%); 
+}
+
+table 
+{
+    width: 100%;
+    border-collapse: collapse; /* Evita el espacio entre las celdas en la tabla */
+}
+
+table th 
+{
+    border-bottom: 1px solid hsl(0, 0%, 80%); /* Borde para las celdas */
+    padding: 12px; /* Ajusta el espaciado dentro de las celdas */
+    text-align: left; /* Alinea el texto a la izquierda en las celdas */
+}
+
+table .C2
+{
+    color: hsl(14, 45%, 36%);
+}
+  
