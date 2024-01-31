@@ -1,6 +1,7 @@
 /* Estilos para dispositivos móviles (ancho <= 375px) */
     body 
     {
+        font-family: 'Outfit', sans-serif;
         background-color: hsl(30, 54%, 90%);
         width: 100%;
         max-width: 375px;
@@ -120,13 +121,6 @@ h1
     
 }
 
-body 
-{
-    /*font-family: 'Young Serif', serif;*/
-    font-family: 'Outfit', sans-serif;
-}
-
-
 #Ingredients
 {
     border-bottom: 1px solid hsl(0, 0%, 80%);
@@ -156,5 +150,10 @@ table th
 table .C2
 {
     color: hsl(14, 45%, 36%);
+}
+
+table .C1
+{
+    font-weight: 400;
 }
   
