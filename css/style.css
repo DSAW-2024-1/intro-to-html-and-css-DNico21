@@ -156,4 +156,8 @@ table tr#last th, table tr#last td
 {
     border-bottom: none;
 }
-  
+
+table tr#last th
+{
+    border-bottom: none;
+}
